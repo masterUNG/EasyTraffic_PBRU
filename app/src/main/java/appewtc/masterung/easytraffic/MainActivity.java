@@ -28,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
 
     }   // Main Method นี่คือ เมธอดหลัก
 
+    public void clickTest(View view) {
+        startActivity(new Intent(this, TestActivity.class));
+    }
+
+
     private void createListView() {
 
         final String[] strTitle = new String[20];
