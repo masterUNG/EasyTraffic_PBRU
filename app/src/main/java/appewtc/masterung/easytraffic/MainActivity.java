@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickTest(View view) {
         startActivity(new Intent(this, TestActivity.class));
-    }
+    }   // clickTest
 
 
     private void createListView() {
